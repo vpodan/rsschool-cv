@@ -1,18 +1,18 @@
 # Vladimir Poddubsky
 ---
-  ## Contacts
+## Contacts
 ---
    * Phone: +48 786 831 864
    * Email: vpod1242@gmail.com
    * GitHub:[vpodan](https://github.com)
    * Telegram: @vpod1212
-  ## About myself
+## About myself
 I'm a third-year student of mechatronics. And I would like to try out something new and interesting. And it is for this reason that I joined this course.
-  ## Skills
+## Skills
    * Java (beginner)
    * C++ (beginner)
   ---
-  ## Code examples
+## Code examples
    ```
    int main(int argc, char** argv) {
  int i = 0, suma = 0, cyf_kontr, ean \[13\] = {};
@@ -54,13 +54,13 @@ I'm a third-year student of mechatronics. And I would like to try out something 
 
 ## Work experience:
 
-   ## Education
+## Education
   * Gdansk University of Technology
-  ## Languages:
+## Languages:
   1. Russsian (native)
-  2. Belarussian
-  3. English (B1)
-  4. Polish (B2)
+  1. Belarussian
+  1. English (B1)
+  1. Polish (B2)
 
 
 
