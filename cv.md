@@ -15,20 +15,20 @@ I'm a third-year student of mechatronics. And I would like to try out something 
 ## Code examples
 ```
    int main(int argc, char** argv) {
- int i = 0, suma = 0, cyf_kontr, ean \[13\] = {};
+ int i = 0, suma = 0, cyf_kontr, ean [13] = {};
  char znak;
 
  printf("Podaj kod EAN-13: ");
  while(scanf("%c", &znak) && (i < 12)) {
- ean\[i\] = znak - 48;
+ ean[i] = znak - 48;
  i++;
  }
 
  for(i=1; i<12; i++) {
  if(i%2) {
- suma += ean\[i\];
+ suma += ean[i];
  } else {
- suma += 3 * ean\[i\];
+ suma += 3 * ean[i];
  }
  }
 
@@ -39,7 +39,7 @@ I'm a third-year student of mechatronics. And I would like to try out something 
  cyf_kontr = 10 - suma;
  }
 
- if(cyf_kontr = ean\[13\]) {
+ if(cyf_kontr = ean[13]) {
  printf("OK. Kod EAN-13 poprawny\n");
  } else {
  printf("Blad. Kod EAN-13 niepoprawny\n");
