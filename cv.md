@@ -58,8 +58,8 @@ I'm a third-year student of mechatronics. And I would like to try out something 
 ## Languages:
 1. Russsian (native)
 2. Belarussian
-3. English (B1)
-4. Polish (B2)
+3. English (**B1**)
+4. Polish (**B2**)
 
 
 
