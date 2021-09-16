@@ -59,17 +59,19 @@
             <h2 class="text2">Code example</h2>
             <pre>
                <code>
-                while(scanf("%c", &znak) && (i<12)) { <br>
-                    ean[i] = znak - 48; <br>
-                    i++; <br>
-                    } <br>
-                   
-                    for(i=1;i<12;i++)  { <br>
-                    if(i%2) { <br>
-                    suma += ean[i]; <br>
-                    } else { <br>
-                    suma += 3 * ean[i]; <br>
-                    }} <br>
+                int main(int argc, char** argv) {
+                    char nazwapl[100];
+                   FILE *plik;
+                   struct istota zwierz;
+                   printf("Podaj nazwe nowego pliku");
+                    scanf("%s",&nazwapl);
+                   printf("Nazwa:");
+                    scanf("%s",&zwierz.nazwa);
+                     if (strlen(zwierz.nazwa)>20)
+                     {
+                        printf("Podana nazwa jest za dluga. Nazwa zwierza powinna zaierac do 20 symboli!");
+                        scanf("%s",&zwierz.nazwa);
+                     }
             </code>
                 </pre>
         </div> 
