@@ -1,1 +1,1 @@
-https://vpodan.github.io/rsschool-cv/
+https://vpodan.github.io/rsschool-cv/cv
